@@ -1,0 +1,104 @@
+dl.livestream_feed {margin:0;}
+  
+ dl.livestream_feed dt {padding: 8px 8px 8px 8px;
+-webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  background: #eaecee;}
+
+dl.livestream_feed dd {margin-bottom: 20px;margin-left: 0px!important;margin-top: 2px;padding: 6px 8px 6px 8px;font-style: italic;font-size: 10px;text-align: right;
+-webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  font-family: "helvetica neue", helvetica, arial, sans-serif;
+  border: 1px solid #ccc;
+  background: #fff;
+  }
+
+dl.livestream_feed dd.more {text-align:center;text-decoration:underline;cursor:pointer;}
+
+.livestream_widget_border {padding:0;border:1px #ccc solid;margin-bottom: 20px;
+}
+.livestream_widget_border .credit {text-align:right;font-style: italic;font-size: 10px;margin: 0px 5px 0px 5px;padding-bottom: 5px;}
+.livestream_widget_border textarea {width:65%;font-size:12px;float:left;padding: 4px!important;
+-webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  border-color: #bbb;
+  background-color: #fff;
+  font-family: "helvetica neue", helvetica, arial, sans-serif;
+  resize:vertical;
+}
+.livestream_widget_border input:active {border:1px solid #777;}
+
+
+
+.livestream_widget_border .submit {
+  background: #e3e3e3;
+  border: 1px solid #bbb;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: inset 0 0 1px 1px #f6f6f6;
+  -moz-box-shadow: inset 0 0 1px 1px #f6f6f6;
+  box-shadow: inset 0 0 1px 1px #f6f6f6;
+  color: #333;
+  font: bold 12px "helvetica neue", helvetica, arial, sans-serif;
+  line-height: 1;
+  padding: 8px 0 9px;
+  text-align: center;
+  text-shadow: 0 1px 0 #fff;
+  float: right;
+  width: 30%!important;
+ }
+.livestream_widget_border .submit:hover {
+    background: #d9d9d9;
+    -webkit-box-shadow: inset 0 0 1px 1px #eaeaea;
+    -moz-box-shadow: inset 0 0 1px 1px #eaeaea;
+    box-shadow: inset 0 0 1px 1px #eaeaea;
+    color: #222;
+    cursor: pointer; }
+.livestream_widget_border .submit:active {
+    background: #d0d0d0;
+    -webkit-box-shadow: inset 0 0 1px 1px #e3e3e3;
+    -moz-box-shadow: inset 0 0 1px 1px #e3e3e3;
+    box-shadow: inset 0 0 1px 1px #e3e3e3;
+    color: #000; }
+
+.livestream_widget_border .updator {margin: 0px 0px 5px 0px;padding-bottom: 5px;}
+.livestream_widget_border .updator input {font-size: 10px;  padding: 16px;}
+
+
+
+
+.livestream_widget_border .update_networks {font-size: 10px;border-bottom: 1px #CCC dashed;}
+.livestream_widget_border .update_networks .networks {float:right;width:50%;}
+.livestream_widget_border .update_networks .networks .network {height:20px;}
+.livestream_widget_border .update_networks .networks .twitter {text-align:right;}
+.livestream_widget_border .update_networks .networks .twitter .icon {float:right;background:url(./images/twitter.png);height:16px;width:16px; top: -2px;  position: relative;}
+
+.livestream_widget_border .media-upload {min-height:15px;padding-bottom: 5px;}
+.livestream_widget_border .media-upload div {float:right;}
+.livestream_widget_border .media-upload object.swfupload {float:left;}
+
+.livestream_widget_border .media-upload div.deattachment-placeholder {margin-left: 5px;
+float:left;width:15px;height:15px;background:url(./images/attach.png);display:none;}
+
+.livestream_widget_border .viewport { height: 200px; overflow: hidden; position: relative; }
+.livestream_widget_border .overview { list-style: none; position: absolute; left: 0; top: 0; }
+.livestream_widget_border .thumb .end,
+.livestream_widget_border .thumb { background-color: #003D5D; }
+.livestream_widget_border .scrollbar { position: relative; float: right; width: 15px; }
+.livestream_widget_border .track { background-color: #D8EEFD; height: 100%; width:13px; position: relative; padding: 0 1px; }
+.livestream_widget_border .thumb { height: 20px; width: 13px; cursor: pointer; overflow: hidden; position: absolute; top: 0; }
+.livestream_widget_border .thumb .end { overflow: hidden; height: 5px; width: 13px; }
+
